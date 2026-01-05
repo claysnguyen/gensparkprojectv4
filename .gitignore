@@ -1,41 +1,36 @@
 # Dependencies
 node_modules/
 
-# Runtime data
-pids
-*.pid
-*.seed
-*.pid.lock
+# Build output
+dist/
+build/
 
-# Compiled binary addons
-build
-dist
-
-# dotenv environment variables file
+# Environment variables
 .env
-.dev.vars
+.env.local
+.env.*.local
 
-# PM2
-.pm2/
-pids/
-logs/
-*.log
-
-# Backup files
-*.backup
-*.bak
-*.tar.gz
-*.zip
-
-# Wrangler
-.wrangler/
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
 
 # OS
 .DS_Store
 Thumbs.db
 
-# IDEs
-.vscode/
-.idea/
-*.swp
-*.swo
+# Logs
+*.log
+npm-debug.log*
+
+# Vercel
+.vercel/
+
+# Testing
+coverage/
+.nyc_output/
+
+# Misc
+*.tgz
+.cache/
