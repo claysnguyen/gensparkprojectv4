@@ -1,0 +1,78 @@
+{
+  "rank": 53,
+  "name": "Yamarkets",
+  "slug": "yamarkets",
+  "websiteUrl": "https://www.yamarkets.com",
+  "logoUrl": "/static/images/brokers/yamarkets-logo.svg",
+  "rating": 3.9,
+  "established": 2018,
+  "headquarters": "St. Vincent",
+  "description": "Yamarkets is a growing forex and CFD broker founded in 2018 with headquarters in St. Vincent. The broker has developed a strong reputation for providing professional trading services to both retail and institutional clients worldwide. \n\nThe broker offers comprehensive trading solutions across multiple asset classes including forex, indices, commodities, and CFDs. Known for its competitive spreads and advanced technology, Yamarkets serves hundreds of thousands of active traders across multiple co",
+  "pros": [
+    "Excellent research and market commentary",
+    "Highly regulated by top-tier financial authorities",
+    "Exceptionally tight spreads starting from 0.0 pips",
+    "Competitive commission structures",
+    "Strong reputation and track record"
+  ],
+  "cons": [
+    "Higher minimum deposit requirements for premium accounts",
+    "Requires verification for withdrawals",
+    "Limited educational content for advanced traders"
+  ],
+  "platforms": [
+    "MetaTrader 4",
+    "MetaTrader 5",
+    "cTrader",
+    "Web Platform",
+    "Mobile App"
+  ],
+  "scores": {
+    "regulationTrust": 7.9,
+    "fees": 7.5,
+    "platformTools": 8.3,
+    "depositWithdrawal": 8.3,
+    "customerSupport": 7.8,
+    "researchEducation": 7.3
+  },
+  "userReviewsCount": 4953,
+  "spreads": [
+    {
+      "currencyPair": "EUR/USD",
+      "spreadFrom": 0.9,
+      "spreadAvg": 1.1,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "EUR/USD",
+      "spreadFrom": 0.6,
+      "spreadAvg": 0.8,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "EUR/USD",
+      "spreadFrom": 0.2,
+      "spreadAvg": 0.3,
+      "accountType": "ECN"
+    },
+    {
+      "currencyPair": "GBP/USD",
+      "spreadFrom": 0.4,
+      "spreadAvg": 0.6,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "USD/JPY",
+      "spreadFrom": 1,
+      "spreadAvg": 1.2,
+      "accountType": "Standard"
+    }
+  ],
+  "regulations": [
+    {
+      "name": "Australian Securities and Investments Commission",
+      "jurisdiction": "Australia",
+      "licenseNumber": "ASIC-185732"
+    }
+  ]
+}

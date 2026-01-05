@@ -1,0 +1,96 @@
+{
+  "rank": 28,
+  "name": "Vantage",
+  "slug": "vantage",
+  "websiteUrl": "https://www.vantagefx.com",
+  "logoUrl": "/static/images/brokers/vantage-logo.svg",
+  "rating": 4.2,
+  "established": 2009,
+  "headquarters": "Sydney, Australia",
+  "description": "Vantage FX is a established forex and CFD broker founded in 2009 with headquarters in Sydney, Australia. With over a decade of experience in the financial markets, the company has built a strong reputation for providing professional trading services to both retail and institutional clients worldwide. \n\nThe broker offers comprehensive trading solutions across multiple asset classes including forex, indices, commodities, and CFDs. Known for its reliable execution and advanced technology, Vantage F",
+  "pros": [
+    "Highly regulated by top-tier financial authorities",
+    "No minimum deposit requirements",
+    "Professional-grade charting tools",
+    "Award-winning customer support available 24/7",
+    "Copy trading and social trading features",
+    "Risk management tools included"
+  ],
+  "cons": [
+    "No guaranteed stop losses on all instruments",
+    "Spreads can widen during high volatility periods",
+    "Limited research tools compared to specialized platforms",
+    "No cryptocurrency trading options available",
+    "Limited promotional offers and bonuses",
+    "Platform complexity may overwhelm beginners"
+  ],
+  "platforms": [
+    "Web Platform",
+    "Mobile App"
+  ],
+  "scores": {
+    "regulationTrust": 9.1,
+    "fees": 7.2,
+    "platformTools": 8.9,
+    "depositWithdrawal": 8.7,
+    "customerSupport": 8.4,
+    "researchEducation": 8.7
+  },
+  "userReviewsCount": 4963,
+  "spreads": [
+    {
+      "currencyPair": "EUR/USD",
+      "spreadFrom": 0.9,
+      "spreadAvg": 1.1,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "EUR/USD",
+      "spreadFrom": 0.7,
+      "spreadAvg": 0.9,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "EUR/USD",
+      "spreadFrom": 0.2,
+      "spreadAvg": 0.3,
+      "accountType": "ECN"
+    },
+    {
+      "currencyPair": "GBP/USD",
+      "spreadFrom": 0.7,
+      "spreadAvg": 0.9,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "GBP/USD",
+      "spreadFrom": 0.2,
+      "spreadAvg": 0.3,
+      "accountType": "ECN"
+    },
+    {
+      "currencyPair": "USD/JPY",
+      "spreadFrom": 0.3,
+      "spreadAvg": 0.5,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "USD/JPY",
+      "spreadFrom": 0.1,
+      "spreadAvg": 0.2,
+      "accountType": "ECN"
+    }
+  ],
+  "regulations": [
+    {
+      "name": "Australian Securities and Investments Commission",
+      "jurisdiction": "Australia",
+      "licenseNumber": "ASIC-185732"
+    },
+    {
+      "name": "Financial Services Authority",
+      "jurisdiction": "Seychelles",
+      "licenseNumber": "FSA-2202"
+    }
+  ]
+}

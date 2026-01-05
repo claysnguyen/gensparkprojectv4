@@ -1,0 +1,86 @@
+{
+  "rank": 23,
+  "name": "NordFX",
+  "slug": "nordfx",
+  "websiteUrl": "https://www.nordfx.com",
+  "logoUrl": "/static/images/brokers/nordfx-logo.svg",
+  "rating": 4.3,
+  "established": 2008,
+  "headquarters": "Vanuatu",
+  "description": "NordFX is a well-established forex and CFD broker founded in 2008 with headquarters in Vanuatu. With over a decade of experience in the financial markets, the company has built a strong reputation for providing institutional-grade trading services to both retail and institutional clients worldwide. \n\nThe broker offers comprehensive trading solutions across multiple asset classes including forex, indices, commodities, and CFDs. Known for its reliable execution and advanced technology, NordFX serv",
+  "pros": [
+    "Negative balance protection for retail clients",
+    "Risk management tools included",
+    "Excellent research and market commentary",
+    "Strong reputation and track record",
+    "Demo accounts available for practice",
+    "Segregated client accounts in tier-1 banks",
+    "Multi-asset trading capabilities"
+  ],
+  "cons": [
+    "Withdrawal fees for certain payment methods",
+    "Limited research tools compared to specialized platforms",
+    "No guaranteed stop losses on all instruments",
+    "Higher commissions on ECN accounts"
+  ],
+  "platforms": [
+    "MetaTrader 4",
+    "MetaTrader 5",
+    "Web Platform",
+    "Mobile App"
+  ],
+  "scores": {
+    "regulationTrust": 7.5,
+    "fees": 8.8,
+    "platformTools": 8.7,
+    "depositWithdrawal": 7.7,
+    "customerSupport": 8.5,
+    "researchEducation": 8.5
+  },
+  "userReviewsCount": 756,
+  "spreads": [
+    {
+      "currencyPair": "EUR/USD",
+      "spreadFrom": 0.9,
+      "spreadAvg": 1.1,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "EUR/USD",
+      "spreadFrom": 0.4,
+      "spreadAvg": 0.6,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "EUR/USD",
+      "spreadFrom": 0.1,
+      "spreadAvg": 0.2,
+      "accountType": "ECN"
+    },
+    {
+      "currencyPair": "GBP/USD",
+      "spreadFrom": 1.2,
+      "spreadAvg": 1.4,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "GBP/USD",
+      "spreadFrom": 0.4,
+      "spreadAvg": 0.6,
+      "accountType": "ECN"
+    },
+    {
+      "currencyPair": "USD/JPY",
+      "spreadFrom": 0.3,
+      "spreadAvg": 0.5,
+      "accountType": "Standard"
+    }
+  ],
+  "regulations": [
+    {
+      "name": "Australian Securities and Investments Commission",
+      "jurisdiction": "Australia",
+      "licenseNumber": "ASIC-185732"
+    }
+  ]
+}

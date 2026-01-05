@@ -1,0 +1,86 @@
+{
+  "rank": 11,
+  "name": "FP",
+  "slug": "fp",
+  "websiteUrl": "https://www.fpmarkets.com",
+  "logoUrl": "/static/images/brokers/fp-logo.svg",
+  "rating": 4.4,
+  "established": 2005,
+  "headquarters": "Sydney, Australia",
+  "description": "FP Markets is a well-established forex and CFD broker founded in 2005 with headquarters in Sydney, Australia. With over a decade of experience in the financial markets, the company has built a strong reputation for providing institutional-grade trading services to both retail and institutional clients worldwide. \n\nThe broker offers comprehensive trading solutions across multiple asset classes including forex, indices, commodities, and CFDs. Known for its competitive spreads and advanced technolo",
+  "pros": [
+    "Highly regulated by top-tier financial authorities",
+    "Exceptionally tight spreads starting from 0.0 pips",
+    "Multi-asset trading capabilities",
+    "Extensive educational resources and market analysis",
+    "Mobile apps with full trading functionality",
+    "Lightning-fast execution with average speeds under 100ms",
+    "Competitive commission structures",
+    "Advanced trading platforms with professional tools"
+  ],
+  "cons": [
+    "Limited weekend trading options",
+    "Overnight funding charges apply to positions",
+    "Higher minimum deposit requirements for premium accounts"
+  ],
+  "platforms": [
+    "MetaTrader 4",
+    "MetaTrader 5",
+    "Mobile App",
+    "Proprietary Platform"
+  ],
+  "scores": {
+    "regulationTrust": 10,
+    "fees": 8.3,
+    "platformTools": 8.2,
+    "depositWithdrawal": 7.6,
+    "customerSupport": 8,
+    "researchEducation": 8
+  },
+  "userReviewsCount": 3927,
+  "spreads": [
+    {
+      "currencyPair": "EUR/USD",
+      "spreadFrom": 0.9,
+      "spreadAvg": 1.1,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "EUR/USD",
+      "spreadFrom": 0.4,
+      "spreadAvg": 0.6,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "EUR/USD",
+      "spreadFrom": 0.1,
+      "spreadAvg": 0.2,
+      "accountType": "ECN"
+    },
+    {
+      "currencyPair": "GBP/USD",
+      "spreadFrom": 0.4,
+      "spreadAvg": 0.6,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "GBP/USD",
+      "spreadFrom": 0.1,
+      "spreadAvg": 0.2,
+      "accountType": "ECN"
+    },
+    {
+      "currencyPair": "USD/JPY",
+      "spreadFrom": 1.3,
+      "spreadAvg": 1.5,
+      "accountType": "Standard"
+    }
+  ],
+  "regulations": [
+    {
+      "name": "Australian Securities and Investments Commission",
+      "jurisdiction": "Australia",
+      "licenseNumber": "ASIC-185732"
+    }
+  ]
+}

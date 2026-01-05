@@ -1,0 +1,72 @@
+{
+  "rank": 64,
+  "name": "Grand",
+  "slug": "grand",
+  "websiteUrl": "https://www.grandcapital.net",
+  "logoUrl": "/static/images/brokers/grand-logo.svg",
+  "rating": 3.6,
+  "established": 2006,
+  "headquarters": "Vanuatu",
+  "description": "Grand Capital is a well-established forex and CFD broker founded in 2006 with headquarters in Vanuatu. With over a decade of experience in the financial markets, the company has built a strong reputation for providing institutional-grade trading services to both retail and institutional clients worldwide. \n\nThe broker offers comprehensive trading solutions across multiple asset classes including forex, indices, commodities, and CFDs. Known for its reliable execution and user-friendly platforms,",
+  "pros": [
+    "Transparent fee structure",
+    "API access for algorithmic trading",
+    "Demo accounts available for practice",
+    "Competitive commission structures",
+    "Highly regulated by top-tier financial authorities",
+    "Exceptionally tight spreads starting from 0.0 pips"
+  ],
+  "cons": [
+    "Higher minimum deposit requirements for premium accounts",
+    "Limited educational content for advanced traders",
+    "Overnight funding charges apply to positions",
+    "Spreads can widen during high volatility periods"
+  ],
+  "platforms": [
+    "MetaTrader 4",
+    "MetaTrader 5",
+    "Web Platform"
+  ],
+  "scores": {
+    "regulationTrust": 7.2,
+    "fees": 9.4,
+    "platformTools": 7.6,
+    "depositWithdrawal": 8.1,
+    "customerSupport": 7.8,
+    "researchEducation": 6.7
+  },
+  "userReviewsCount": 4314,
+  "spreads": [
+    {
+      "currencyPair": "EUR/USD",
+      "spreadFrom": 0.9,
+      "spreadAvg": 1.1,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "EUR/USD",
+      "spreadFrom": 0.6,
+      "spreadAvg": 0.8,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "GBP/USD",
+      "spreadFrom": 1.5,
+      "spreadAvg": 1.7,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "USD/JPY",
+      "spreadFrom": 0.4,
+      "spreadAvg": 0.6,
+      "accountType": "Standard"
+    }
+  ],
+  "regulations": [
+    {
+      "name": "Australian Securities and Investments Commission",
+      "jurisdiction": "Australia",
+      "licenseNumber": "ASIC-185732"
+    }
+  ]
+}

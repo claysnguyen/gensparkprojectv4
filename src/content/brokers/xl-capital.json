@@ -1,0 +1,83 @@
+{
+  "rank": 26,
+  "name": "XL Capital",
+  "slug": "xl-capital",
+  "websiteUrl": "https://www.xlcapitalmarkets.com",
+  "logoUrl": "/static/images/brokers/xl-capital-logo.svg",
+  "rating": 4.3,
+  "established": 2017,
+  "headquarters": "Sydney, Australia",
+  "description": "XL Capital Markets is a growing forex and CFD broker founded in 2017 with headquarters in Sydney, Australia. The broker has developed a strong reputation for providing professional trading services to both retail and institutional clients worldwide. \n\nThe broker offers comprehensive trading solutions across multiple asset classes including forex, indices, commodities, stocks, and CFDs. Known for its competitive spreads and advanced technology, XL Capital Markets serves thousands of active trader",
+  "pros": [
+    "Highly regulated by top-tier financial authorities",
+    "Exceptionally tight spreads starting from 0.0 pips",
+    "Professional-grade charting tools",
+    "Award-winning customer support available 24/7",
+    "Negative balance protection for retail clients"
+  ],
+  "cons": [
+    "Limited weekend trading options",
+    "Higher minimum deposit requirements for premium accounts",
+    "Limited promotional offers and bonuses",
+    "Withdrawal fees for certain payment methods"
+  ],
+  "platforms": [
+    "MetaTrader 4",
+    "MetaTrader 5",
+    "Mobile App"
+  ],
+  "scores": {
+    "regulationTrust": 9.7,
+    "fees": 8.6,
+    "platformTools": 7.9,
+    "depositWithdrawal": 7.4,
+    "customerSupport": 8.9,
+    "researchEducation": 9.3
+  },
+  "userReviewsCount": 3059,
+  "spreads": [
+    {
+      "currencyPair": "EUR/USD",
+      "spreadFrom": 0.9,
+      "spreadAvg": 1.1,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "EUR/USD",
+      "spreadFrom": 0.9,
+      "spreadAvg": 1.1,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "GBP/USD",
+      "spreadFrom": 1,
+      "spreadAvg": 1.2,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "GBP/USD",
+      "spreadFrom": 0.3,
+      "spreadAvg": 0.5,
+      "accountType": "ECN"
+    },
+    {
+      "currencyPair": "USD/JPY",
+      "spreadFrom": 1.4,
+      "spreadAvg": 1.6,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "USD/JPY",
+      "spreadFrom": 0.4,
+      "spreadAvg": 0.7,
+      "accountType": "ECN"
+    }
+  ],
+  "regulations": [
+    {
+      "name": "Australian Securities and Investments Commission",
+      "jurisdiction": "Australia",
+      "licenseNumber": "ASIC-185732"
+    }
+  ]
+}

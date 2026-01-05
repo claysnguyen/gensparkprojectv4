@@ -1,0 +1,92 @@
+{
+  "rank": 38,
+  "name": "Forex.com",
+  "slug": "forexcom",
+  "websiteUrl": "https://www.forex.com",
+  "logoUrl": "/static/images/brokers/forexcom-logo.svg",
+  "rating": 4,
+  "established": 2001,
+  "headquarters": "New York, USA",
+  "description": "Forex.com is a well-established forex and CFD broker founded in 2001 with headquarters in New York, USA. With over a decade of experience in the financial markets, the company has built a strong reputation for providing institutional-grade trading services to both retail and institutional clients worldwide. \n\nThe broker offers comprehensive trading solutions across multiple asset classes including forex, indices, commodities, stocks, and CFDs. Known for its competitive spreads and user-friendly",
+  "pros": [
+    "Highly regulated by top-tier financial authorities",
+    "Lightning-fast execution with average speeds under 100ms",
+    "Exceptionally tight spreads starting from 0.0 pips",
+    "Advanced trading platforms with professional tools",
+    "Risk management tools included",
+    "Multi-asset trading capabilities",
+    "Professional-grade charting tools"
+  ],
+  "cons": [
+    "Inactivity fees apply after extended periods of no trading",
+    "Complex fee structure for some account types",
+    "Customer support phone lines not available 24/7 globally",
+    "Requires verification for withdrawals"
+  ],
+  "platforms": [
+    "MetaTrader 4",
+    "MetaTrader 5",
+    "Web Platform",
+    "Mobile App"
+  ],
+  "scores": {
+    "regulationTrust": 9.8,
+    "fees": 8.6,
+    "platformTools": 9,
+    "depositWithdrawal": 8.2,
+    "customerSupport": 8.4,
+    "researchEducation": 8.5
+  },
+  "userReviewsCount": 1265,
+  "spreads": [
+    {
+      "currencyPair": "EUR/USD",
+      "spreadFrom": 0.9,
+      "spreadAvg": 1.1,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "EUR/USD",
+      "spreadFrom": 1,
+      "spreadAvg": 1.2,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "EUR/USD",
+      "spreadFrom": 0.3,
+      "spreadAvg": 0.5,
+      "accountType": "ECN"
+    },
+    {
+      "currencyPair": "GBP/USD",
+      "spreadFrom": 1,
+      "spreadAvg": 1.2,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "GBP/USD",
+      "spreadFrom": 0.3,
+      "spreadAvg": 0.5,
+      "accountType": "ECN"
+    },
+    {
+      "currencyPair": "USD/JPY",
+      "spreadFrom": 0.9,
+      "spreadAvg": 1.1,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "USD/JPY",
+      "spreadFrom": 0.3,
+      "spreadAvg": 0.5,
+      "accountType": "ECN"
+    }
+  ],
+  "regulations": [
+    {
+      "name": "Australian Securities and Investments Commission",
+      "jurisdiction": "Australia",
+      "licenseNumber": "ASIC-185732"
+    }
+  ]
+}

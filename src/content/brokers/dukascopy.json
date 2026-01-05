@@ -1,0 +1,81 @@
+{
+  "rank": 40,
+  "name": "Dukascopy",
+  "slug": "dukascopy",
+  "websiteUrl": "https://www.dukascopy.com",
+  "logoUrl": "/static/images/brokers/dukascopy-logo.svg",
+  "rating": 4,
+  "established": 2004,
+  "headquarters": "Geneva, Switzerland",
+  "description": "Dukascopy is a well-established forex and CFD broker founded in 2004 with headquarters in Geneva, Switzerland. With over a decade of experience in the financial markets, the company has built a strong reputation for providing institutional-grade trading services to both retail and institutional clients worldwide. \n\nThe broker offers comprehensive trading solutions across multiple asset classes including forex, indices, commodities, and CFDs. Known for its competitive spreads and advanced technol",
+  "pros": [
+    "Transparent fee structure",
+    "Mobile apps with full trading functionality",
+    "Economic calendar and market news",
+    "Excellent research and market commentary",
+    "Professional-grade charting tools",
+    "Multi-asset trading capabilities"
+  ],
+  "cons": [
+    "Inactivity fees apply after extended periods of no trading",
+    "Limited research tools compared to specialized platforms",
+    "Platform maintenance during market hours occasionally",
+    "Customer support phone lines not available 24/7 globally",
+    "Limited promotional offers and bonuses"
+  ],
+  "platforms": [
+    "MetaTrader 4",
+    "MetaTrader 5",
+    "cTrader",
+    "Web Platform",
+    "Mobile App"
+  ],
+  "scores": {
+    "regulationTrust": 9.9,
+    "fees": 9.4,
+    "platformTools": 8.5,
+    "depositWithdrawal": 8.4,
+    "customerSupport": 8.1,
+    "researchEducation": 8.2
+  },
+  "userReviewsCount": 1403,
+  "spreads": [
+    {
+      "currencyPair": "EUR/USD",
+      "spreadFrom": 0.9,
+      "spreadAvg": 1.1,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "EUR/USD",
+      "spreadFrom": 1,
+      "spreadAvg": 1.2,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "EUR/USD",
+      "spreadFrom": 0.3,
+      "spreadAvg": 0.5,
+      "accountType": "ECN"
+    },
+    {
+      "currencyPair": "GBP/USD",
+      "spreadFrom": 1.3,
+      "spreadAvg": 1.5,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "USD/JPY",
+      "spreadFrom": 0.7,
+      "spreadAvg": 0.9,
+      "accountType": "Standard"
+    }
+  ],
+  "regulations": [
+    {
+      "name": "Australian Securities and Investments Commission",
+      "jurisdiction": "Australia",
+      "licenseNumber": "ASIC-185732"
+    }
+  ]
+}

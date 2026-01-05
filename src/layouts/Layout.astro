@@ -1,0 +1,71 @@
+---
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description = "Compare and find the best forex brokers. Expert reviews, spreads, regulations, and trading conditions." } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="description" content={description} />
+    <title>{title} | ForexBrokersCompare</title>
+  </head>
+  <body class="min-h-screen bg-gray-50">
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+      <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between h-16">
+          <div class="flex items-center">
+            <a href="/" class="text-2xl font-bold text-primary-600">
+              ForexBrokers<span class="text-gray-900">Compare</span>
+            </a>
+          </div>
+          <div class="hidden md:flex items-center space-x-8">
+            <a href="/brokers" class="text-gray-700 hover:text-primary-600">Brokers</a>
+            <a href="/compare" class="text-gray-700 hover:text-primary-600">Compare</a>
+            <a href="/about" class="text-gray-700 hover:text-primary-600">About</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <slot />
+    </main>
+
+    <footer class="bg-gray-900 text-white py-12 mt-16">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div>
+            <h3 class="text-xl font-bold mb-4">ForexBrokersCompare</h3>
+            <p class="text-gray-400">Your trusted source for forex broker reviews and comparisons since 2024.</p>
+          </div>
+          <div>
+            <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+            <ul class="space-y-2">
+              <li><a href="/brokers" class="text-gray-400 hover:text-white">All Brokers</a></li>
+              <li><a href="/compare" class="text-gray-400 hover:text-white">Compare Brokers</a></li>
+              <li><a href="/about" class="text-gray-400 hover:text-white">About Us</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-lg font-semibold mb-4">Top Rated</h3>
+            <ul class="space-y-2 text-gray-400">
+              <li><a href="/brokers/pepperstone" class="hover:text-white">Pepperstone</a></li>
+              <li><a href="/brokers/ig" class="hover:text-white">IG</a></li>
+              <li><a href="/brokers/xm" class="hover:text-white">XM</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+          <p>&copy; 2024 ForexBrokersCompare. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

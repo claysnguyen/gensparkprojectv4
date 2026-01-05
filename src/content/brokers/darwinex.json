@@ -1,0 +1,87 @@
+{
+  "rank": 15,
+  "name": "Darwinex",
+  "slug": "darwinex",
+  "websiteUrl": "https://www.darwinex.com",
+  "logoUrl": "/static/images/brokers/darwinex-logo.svg",
+  "rating": 4.4,
+  "established": 2012,
+  "headquarters": "London, UK",
+  "description": "Darwinex is a established forex and CFD broker founded in 2012 with headquarters in London, UK. With over a decade of experience in the financial markets, the company has built a strong reputation for providing professional trading services to both retail and institutional clients worldwide. \n\nThe broker offers comprehensive trading solutions across multiple asset classes including forex, indices, commodities, and CFDs. Known for its reliable execution and user-friendly platforms, Darwinex serve",
+  "pros": [
+    "Highly regulated by top-tier financial authorities",
+    "Exceptionally tight spreads starting from 0.0 pips",
+    "Strong reputation and track record",
+    "Competitive commission structures",
+    "Segregated client accounts in tier-1 banks",
+    "Excellent research and market commentary",
+    "API access for algorithmic trading"
+  ],
+  "cons": [
+    "Overnight funding charges apply to positions",
+    "Limited promotional offers and bonuses",
+    "Inactivity fees apply after extended periods of no trading",
+    "Limited research tools compared to specialized platforms"
+  ],
+  "platforms": [
+    "MetaTrader 4",
+    "MetaTrader 5",
+    "cTrader",
+    "Web Platform",
+    "Mobile App"
+  ],
+  "scores": {
+    "regulationTrust": 9.3,
+    "fees": 8.7,
+    "platformTools": 8.7,
+    "depositWithdrawal": 8.7,
+    "customerSupport": 9,
+    "researchEducation": 8.4
+  },
+  "userReviewsCount": 3770,
+  "spreads": [
+    {
+      "currencyPair": "EUR/USD",
+      "spreadFrom": 0.9,
+      "spreadAvg": 1.1,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "EUR/USD",
+      "spreadFrom": 0.9,
+      "spreadAvg": 1.1,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "EUR/USD",
+      "spreadFrom": 0.3,
+      "spreadAvg": 0.4,
+      "accountType": "ECN"
+    },
+    {
+      "currencyPair": "GBP/USD",
+      "spreadFrom": 1.5,
+      "spreadAvg": 1.7,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "GBP/USD",
+      "spreadFrom": 0.4,
+      "spreadAvg": 0.7,
+      "accountType": "ECN"
+    },
+    {
+      "currencyPair": "USD/JPY",
+      "spreadFrom": 0.5,
+      "spreadAvg": 0.7,
+      "accountType": "Standard"
+    }
+  ],
+  "regulations": [
+    {
+      "name": "Australian Securities and Investments Commission",
+      "jurisdiction": "Australia",
+      "licenseNumber": "ASIC-185732"
+    }
+  ]
+}

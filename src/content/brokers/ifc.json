@@ -1,0 +1,88 @@
+{
+  "rank": 33,
+  "name": "IFC",
+  "slug": "ifc",
+  "websiteUrl": "https://www.ifcmarkets.com",
+  "logoUrl": "/static/images/brokers/ifc-logo.svg",
+  "rating": 4.2,
+  "established": 2006,
+  "headquarters": "British Virgin Islands",
+  "description": "IFC Markets is a well-established forex and CFD broker founded in 2006 with headquarters in British Virgin Islands. With over a decade of experience in the financial markets, the company has built a strong reputation for providing institutional-grade trading services to both retail and institutional clients worldwide. \n\nThe broker offers comprehensive trading solutions across multiple asset classes including forex, indices, commodities, stocks, and CFDs. Known for its reliable execution and user",
+  "pros": [
+    "Wide range of tradeable instruments",
+    "Excellent research and market commentary",
+    "Risk management tools included",
+    "Mobile apps with full trading functionality",
+    "Highly regulated by top-tier financial authorities",
+    "Professional-grade charting tools",
+    "Competitive commission structures",
+    "Exceptionally tight spreads starting from 0.0 pips"
+  ],
+  "cons": [
+    "Higher minimum deposit requirements for premium accounts",
+    "Limited weekend trading options",
+    "Higher commissions on ECN accounts",
+    "Inactivity fees apply after extended periods of no trading",
+    "Limited promotional offers and bonuses",
+    "Requires verification for withdrawals"
+  ],
+  "platforms": [
+    "MetaTrader 4",
+    "cTrader",
+    "Web Platform"
+  ],
+  "scores": {
+    "regulationTrust": 7.4,
+    "fees": 8.1,
+    "platformTools": 9,
+    "depositWithdrawal": 8.2,
+    "customerSupport": 8.8,
+    "researchEducation": 8.8
+  },
+  "userReviewsCount": 1368,
+  "spreads": [
+    {
+      "currencyPair": "EUR/USD",
+      "spreadFrom": 0.9,
+      "spreadAvg": 1.1,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "EUR/USD",
+      "spreadFrom": 0.4,
+      "spreadAvg": 0.6,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "EUR/USD",
+      "spreadFrom": 0.1,
+      "spreadAvg": 0.2,
+      "accountType": "ECN"
+    },
+    {
+      "currencyPair": "GBP/USD",
+      "spreadFrom": 1.4,
+      "spreadAvg": 1.6,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "GBP/USD",
+      "spreadFrom": 0.4,
+      "spreadAvg": 0.7,
+      "accountType": "ECN"
+    },
+    {
+      "currencyPair": "USD/JPY",
+      "spreadFrom": 0.4,
+      "spreadAvg": 0.6,
+      "accountType": "Standard"
+    }
+  ],
+  "regulations": [
+    {
+      "name": "Australian Securities and Investments Commission",
+      "jurisdiction": "Australia",
+      "licenseNumber": "ASIC-185732"
+    }
+  ]
+}

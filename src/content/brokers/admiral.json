@@ -1,0 +1,82 @@
+{
+  "rank": 12,
+  "name": "Admiral",
+  "slug": "admiral",
+  "websiteUrl": "https://www.admiralmarkets.com",
+  "logoUrl": "/static/images/brokers/admiral-logo.svg",
+  "rating": 4.4,
+  "established": 2001,
+  "headquarters": "Tallinn, Estonia",
+  "description": "Admiral Markets is a well-established forex and CFD broker founded in 2001 with headquarters in Tallinn, Estonia. With over a decade of experience in the financial markets, the company has built a strong reputation for providing institutional-grade trading services to both retail and institutional clients worldwide. \n\nThe broker offers comprehensive trading solutions across multiple asset classes including forex, indices, commodities, stocks, and CFDs. Known for its competitive spreads and user-",
+  "pros": [
+    "No minimum deposit requirements",
+    "Economic calendar and market news",
+    "Strong reputation and track record",
+    "Segregated client accounts in tier-1 banks",
+    "Award-winning customer support available 24/7"
+  ],
+  "cons": [
+    "No guaranteed stop losses on all instruments",
+    "Overnight funding charges apply to positions",
+    "Higher minimum deposit requirements for premium accounts"
+  ],
+  "platforms": [
+    "MetaTrader 4",
+    "cTrader",
+    "Mobile App"
+  ],
+  "scores": {
+    "regulationTrust": 8.8,
+    "fees": 9.4,
+    "platformTools": 9,
+    "depositWithdrawal": 7.8,
+    "customerSupport": 7.9,
+    "researchEducation": 7.8
+  },
+  "userReviewsCount": 3622,
+  "spreads": [
+    {
+      "currencyPair": "EUR/USD",
+      "spreadFrom": 0.9,
+      "spreadAvg": 1.1,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "EUR/USD",
+      "spreadFrom": 1.5,
+      "spreadAvg": 1.7,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "EUR/USD",
+      "spreadFrom": 0.4,
+      "spreadAvg": 0.7,
+      "accountType": "ECN"
+    },
+    {
+      "currencyPair": "GBP/USD",
+      "spreadFrom": 0.4,
+      "spreadAvg": 0.6,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "GBP/USD",
+      "spreadFrom": 0.1,
+      "spreadAvg": 0.2,
+      "accountType": "ECN"
+    },
+    {
+      "currencyPair": "USD/JPY",
+      "spreadFrom": 0.9,
+      "spreadAvg": 1.1,
+      "accountType": "Standard"
+    }
+  ],
+  "regulations": [
+    {
+      "name": "Australian Securities and Investments Commission",
+      "jurisdiction": "Australia",
+      "licenseNumber": "ASIC-185732"
+    }
+  ]
+}

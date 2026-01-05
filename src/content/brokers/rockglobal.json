@@ -1,0 +1,80 @@
+{
+  "rank": 25,
+  "name": "RockGlobal",
+  "slug": "rockglobal",
+  "websiteUrl": "https://www.rockglobal.com",
+  "logoUrl": "/static/images/brokers/rockglobal-logo.svg",
+  "rating": 4.3,
+  "established": 2015,
+  "headquarters": "Mauritius",
+  "description": "RockGlobal is a established forex and CFD broker founded in 2015 with headquarters in Mauritius. The broker has developed a strong reputation for providing professional trading services to both retail and institutional clients worldwide. \n\nThe broker offers comprehensive trading solutions across multiple asset classes including forex, indices, commodities, stocks, and CFDs. Known for its competitive spreads and user-friendly platforms, RockGlobal serves hundreds of thousands of active traders ac",
+  "pros": [
+    "Highly regulated by top-tier financial authorities",
+    "Competitive commission structures",
+    "Extensive educational resources and market analysis",
+    "High leverage options for experienced traders",
+    "Exceptionally tight spreads starting from 0.0 pips",
+    "Copy trading and social trading features"
+  ],
+  "cons": [
+    "Limited research tools compared to specialized platforms",
+    "Limited weekend trading options",
+    "Withdrawal fees for certain payment methods",
+    "Platform maintenance during market hours occasionally"
+  ],
+  "platforms": [
+    "MetaTrader 4",
+    "MetaTrader 5",
+    "cTrader",
+    "Web Platform",
+    "Mobile App"
+  ],
+  "scores": {
+    "regulationTrust": 7.3,
+    "fees": 7.4,
+    "platformTools": 8.8,
+    "depositWithdrawal": 8.7,
+    "customerSupport": 8.2,
+    "researchEducation": 7.9
+  },
+  "userReviewsCount": 5245,
+  "spreads": [
+    {
+      "currencyPair": "EUR/USD",
+      "spreadFrom": 0.9,
+      "spreadAvg": 1.1,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "EUR/USD",
+      "spreadFrom": 0.3,
+      "spreadAvg": 0.5,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "GBP/USD",
+      "spreadFrom": 1.3,
+      "spreadAvg": 1.5,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "USD/JPY",
+      "spreadFrom": 1.1,
+      "spreadAvg": 1.3,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "USD/JPY",
+      "spreadFrom": 0.3,
+      "spreadAvg": 0.6,
+      "accountType": "ECN"
+    }
+  ],
+  "regulations": [
+    {
+      "name": "Australian Securities and Investments Commission",
+      "jurisdiction": "Australia",
+      "licenseNumber": "ASIC-185732"
+    }
+  ]
+}

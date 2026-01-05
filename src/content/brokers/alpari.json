@@ -1,0 +1,79 @@
+{
+  "rank": 56,
+  "name": "Alpari",
+  "slug": "alpari",
+  "websiteUrl": "https://www.alpari.com",
+  "logoUrl": "/static/images/brokers/alpari-logo.svg",
+  "rating": 3.8,
+  "established": 1998,
+  "headquarters": "Mauritius",
+  "description": "Alpari is a well-established forex and CFD broker founded in 1998 with headquarters in Mauritius. With over a decade of experience in the financial markets, the company has built a strong reputation for providing institutional-grade trading services to both retail and institutional clients worldwide. \n\nThe broker offers comprehensive trading solutions across multiple asset classes including forex, indices, commodities, stocks, and CFDs. Known for its reliable execution and user-friendly platform",
+  "pros": [
+    "Lightning-fast execution with average speeds under 100ms",
+    "Exceptionally tight spreads starting from 0.0 pips",
+    "Highly regulated by top-tier financial authorities",
+    "Wide range of tradeable instruments",
+    "Advanced trading platforms with professional tools"
+  ],
+  "cons": [
+    "Higher minimum deposit requirements for premium accounts",
+    "Inactivity fees apply after extended periods of no trading",
+    "Higher commissions on ECN accounts",
+    "No cryptocurrency trading options available"
+  ],
+  "platforms": [
+    "MetaTrader 4",
+    "MetaTrader 5",
+    "Web Platform",
+    "Mobile App",
+    "TradingView"
+  ],
+  "scores": {
+    "regulationTrust": 6.3,
+    "fees": 8.1,
+    "platformTools": 7.6,
+    "depositWithdrawal": 8.3,
+    "customerSupport": 8.5,
+    "researchEducation": 7.9
+  },
+  "userReviewsCount": 1321,
+  "spreads": [
+    {
+      "currencyPair": "EUR/USD",
+      "spreadFrom": 0.9,
+      "spreadAvg": 1.1,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "EUR/USD",
+      "spreadFrom": 0.7,
+      "spreadAvg": 0.9,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "GBP/USD",
+      "spreadFrom": 1.2,
+      "spreadAvg": 1.4,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "GBP/USD",
+      "spreadFrom": 0.4,
+      "spreadAvg": 0.6,
+      "accountType": "ECN"
+    },
+    {
+      "currencyPair": "USD/JPY",
+      "spreadFrom": 0.9,
+      "spreadAvg": 1.1,
+      "accountType": "Standard"
+    }
+  ],
+  "regulations": [
+    {
+      "name": "Australian Securities and Investments Commission",
+      "jurisdiction": "Australia",
+      "licenseNumber": "ASIC-185732"
+    }
+  ]
+}

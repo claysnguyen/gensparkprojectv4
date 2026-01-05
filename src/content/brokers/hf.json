@@ -1,0 +1,87 @@
+{
+  "rank": 70,
+  "name": "HF",
+  "slug": "hf",
+  "websiteUrl": "https://www.hfm.com",
+  "logoUrl": "/static/images/brokers/hf-logo.svg",
+  "rating": 3.4,
+  "established": 2010,
+  "headquarters": "Mauritius",
+  "description": "HF Markets is a established forex and CFD broker founded in 2010 with headquarters in Mauritius. With over a decade of experience in the financial markets, the company has built a strong reputation for providing professional trading services to both retail and institutional clients worldwide. \n\nThe broker offers comprehensive trading solutions across multiple asset classes including forex, indices, commodities, and CFDs. Known for its reliable execution and advanced technology, HF Markets serves",
+  "pros": [
+    "API access for algorithmic trading",
+    "Demo accounts available for practice",
+    "Award-winning customer support available 24/7",
+    "Mobile apps with full trading functionality",
+    "Professional-grade charting tools",
+    "Lightning-fast execution with average speeds under 100ms",
+    "Multiple account types for different trading styles",
+    "Advanced trading platforms with professional tools"
+  ],
+  "cons": [
+    "Higher commissions on ECN accounts",
+    "Withdrawal fees for certain payment methods",
+    "Platform maintenance during market hours occasionally",
+    "Requires verification for withdrawals",
+    "Platform complexity may overwhelm beginners",
+    "Limited weekend trading options"
+  ],
+  "platforms": [
+    "Web Platform",
+    "Mobile App"
+  ],
+  "scores": {
+    "regulationTrust": 6.2,
+    "fees": 7.3,
+    "platformTools": 7.6,
+    "depositWithdrawal": 8.4,
+    "customerSupport": 9,
+    "researchEducation": 7.1
+  },
+  "userReviewsCount": 5411,
+  "spreads": [
+    {
+      "currencyPair": "EUR/USD",
+      "spreadFrom": 0.9,
+      "spreadAvg": 1.1,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "EUR/USD",
+      "spreadFrom": 1.1,
+      "spreadAvg": 1.3,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "EUR/USD",
+      "spreadFrom": 0.3,
+      "spreadAvg": 0.6,
+      "accountType": "ECN"
+    },
+    {
+      "currencyPair": "GBP/USD",
+      "spreadFrom": 1.5,
+      "spreadAvg": 1.7,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "USD/JPY",
+      "spreadFrom": 1.3,
+      "spreadAvg": 1.5,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "USD/JPY",
+      "spreadFrom": 0.4,
+      "spreadAvg": 0.7,
+      "accountType": "ECN"
+    }
+  ],
+  "regulations": [
+    {
+      "name": "Australian Securities and Investments Commission",
+      "jurisdiction": "Australia",
+      "licenseNumber": "ASIC-185732"
+    }
+  ]
+}

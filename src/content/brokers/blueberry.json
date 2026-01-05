@@ -1,0 +1,92 @@
+{
+  "rank": 60,
+  "name": "Blueberry",
+  "slug": "blueberry",
+  "websiteUrl": "https://www.blueberrymarkets.com",
+  "logoUrl": "/static/images/brokers/blueberry-logo.svg",
+  "rating": 3.7,
+  "established": 2013,
+  "headquarters": "Melbourne, Australia",
+  "description": "Blueberry Markets is a established forex and CFD broker founded in 2013 with headquarters in Melbourne, Australia. With over a decade of experience in the financial markets, the company has built a strong reputation for providing professional trading services to both retail and institutional clients worldwide. \n\nThe broker offers comprehensive trading solutions across multiple asset classes including forex, indices, commodities, and CFDs. Known for its competitive spreads and user-friendly platf",
+  "pros": [
+    "Highly regulated by top-tier financial authorities",
+    "Mobile apps with full trading functionality",
+    "Strong reputation and track record",
+    "Award-winning customer support available 24/7",
+    "Free deposits and fast withdrawals"
+  ],
+  "cons": [
+    "Customer support phone lines not available 24/7 globally",
+    "Limited promotional offers and bonuses",
+    "Spreads can widen during high volatility periods",
+    "Limited educational content for advanced traders",
+    "No cryptocurrency trading options available"
+  ],
+  "platforms": [
+    "MetaTrader 4",
+    "MetaTrader 5",
+    "cTrader",
+    "Web Platform",
+    "Mobile App"
+  ],
+  "scores": {
+    "regulationTrust": 9.3,
+    "fees": 7.7,
+    "platformTools": 8,
+    "depositWithdrawal": 7.5,
+    "customerSupport": 7.4,
+    "researchEducation": 7.2
+  },
+  "userReviewsCount": 2668,
+  "spreads": [
+    {
+      "currencyPair": "EUR/USD",
+      "spreadFrom": 0.9,
+      "spreadAvg": 1.1,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "EUR/USD",
+      "spreadFrom": 1.1,
+      "spreadAvg": 1.3,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "EUR/USD",
+      "spreadFrom": 0.3,
+      "spreadAvg": 0.6,
+      "accountType": "ECN"
+    },
+    {
+      "currencyPair": "GBP/USD",
+      "spreadFrom": 1.3,
+      "spreadAvg": 1.5,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "GBP/USD",
+      "spreadFrom": 0.4,
+      "spreadAvg": 0.7,
+      "accountType": "ECN"
+    },
+    {
+      "currencyPair": "USD/JPY",
+      "spreadFrom": 1.1,
+      "spreadAvg": 1.3,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "USD/JPY",
+      "spreadFrom": 0.3,
+      "spreadAvg": 0.5,
+      "accountType": "ECN"
+    }
+  ],
+  "regulations": [
+    {
+      "name": "Australian Securities and Investments Commission",
+      "jurisdiction": "Australia",
+      "licenseNumber": "ASIC-185732"
+    }
+  ]
+}

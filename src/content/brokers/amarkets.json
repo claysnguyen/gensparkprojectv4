@@ -1,0 +1,81 @@
+{
+  "rank": 32,
+  "name": "AMarkets",
+  "slug": "amarkets",
+  "websiteUrl": "https://www.amarkets.com",
+  "logoUrl": "/static/images/brokers/amarkets-logo.svg",
+  "rating": 4.2,
+  "established": 2007,
+  "headquarters": "Limassol, Cyprus",
+  "description": "AMarkets is a well-established forex and CFD broker founded in 2007 with headquarters in Limassol, Cyprus. With over a decade of experience in the financial markets, the company has built a strong reputation for providing institutional-grade trading services to both retail and institutional clients worldwide. \n\nThe broker offers comprehensive trading solutions across multiple asset classes including forex, indices, commodities, stocks, and CFDs. Known for its reliable execution and user-friendly",
+  "pros": [
+    "Extensive educational resources and market analysis",
+    "Highly regulated by top-tier financial authorities",
+    "Risk management tools included",
+    "No minimum deposit requirements",
+    "High leverage options for experienced traders",
+    "Exceptionally tight spreads starting from 0.0 pips",
+    "Lightning-fast execution with average speeds under 100ms",
+    "Segregated client accounts in tier-1 banks"
+  ],
+  "cons": [
+    "Limited research tools compared to specialized platforms",
+    "Inactivity fees apply after extended periods of no trading",
+    "Limited availability in some jurisdictions",
+    "Platform complexity may overwhelm beginners",
+    "Platform maintenance during market hours occasionally"
+  ],
+  "platforms": [
+    "MetaTrader 4",
+    "MetaTrader 5",
+    "Web Platform",
+    "Mobile App"
+  ],
+  "scores": {
+    "regulationTrust": 8.7,
+    "fees": 9.4,
+    "platformTools": 7.6,
+    "depositWithdrawal": 7.6,
+    "customerSupport": 8.2,
+    "researchEducation": 8.7
+  },
+  "userReviewsCount": 4201,
+  "spreads": [
+    {
+      "currencyPair": "EUR/USD",
+      "spreadFrom": 0.9,
+      "spreadAvg": 1.1,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "EUR/USD",
+      "spreadFrom": 0.8,
+      "spreadAvg": 1,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "GBP/USD",
+      "spreadFrom": 1,
+      "spreadAvg": 1.2,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "USD/JPY",
+      "spreadFrom": 1.3,
+      "spreadAvg": 1.5,
+      "accountType": "Standard"
+    }
+  ],
+  "regulations": [
+    {
+      "name": "Australian Securities and Investments Commission",
+      "jurisdiction": "Australia",
+      "licenseNumber": "ASIC-185732"
+    },
+    {
+      "name": "Financial Services Authority",
+      "jurisdiction": "Seychelles",
+      "licenseNumber": "FSA-5027"
+    }
+  ]
+}

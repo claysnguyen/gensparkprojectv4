@@ -1,0 +1,80 @@
+{
+  "rank": 71,
+  "name": "PaxForex",
+  "slug": "paxforex",
+  "websiteUrl": "https://www.paxforex.com",
+  "logoUrl": "/static/images/brokers/paxforex-logo.svg",
+  "rating": 3.4,
+  "established": 2010,
+  "headquarters": "Dominica",
+  "description": "PaxForex is a established forex and CFD broker founded in 2010 with headquarters in Dominica. With over a decade of experience in the financial markets, the company has built a strong reputation for providing professional trading services to both retail and institutional clients worldwide. \n\nThe broker offers comprehensive trading solutions across multiple asset classes including forex, indices, commodities, stocks, and CFDs. Known for its competitive spreads and advanced technology, PaxForex se",
+  "pros": [
+    "Extensive educational resources and market analysis",
+    "Highly regulated by top-tier financial authorities",
+    "Exceptionally tight spreads starting from 0.0 pips",
+    "Multi-asset trading capabilities",
+    "Transparent fee structure",
+    "High leverage options for experienced traders",
+    "Economic calendar and market news",
+    "API access for algorithmic trading"
+  ],
+  "cons": [
+    "Higher minimum deposit requirements for premium accounts",
+    "No cryptocurrency trading options available",
+    "No guaranteed stop losses on all instruments",
+    "Inactivity fees apply after extended periods of no trading"
+  ],
+  "platforms": [
+    "MetaTrader 5",
+    "Web Platform",
+    "ProRealTime"
+  ],
+  "scores": {
+    "regulationTrust": 7.1,
+    "fees": 7.5,
+    "platformTools": 8.4,
+    "depositWithdrawal": 7.9,
+    "customerSupport": 7.5,
+    "researchEducation": 6.8
+  },
+  "userReviewsCount": 4211,
+  "spreads": [
+    {
+      "currencyPair": "EUR/USD",
+      "spreadFrom": 0.9,
+      "spreadAvg": 1.1,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "EUR/USD",
+      "spreadFrom": 1.5,
+      "spreadAvg": 1.7,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "GBP/USD",
+      "spreadFrom": 0.8,
+      "spreadAvg": 1,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "GBP/USD",
+      "spreadFrom": 0.3,
+      "spreadAvg": 0.4,
+      "accountType": "ECN"
+    },
+    {
+      "currencyPair": "USD/JPY",
+      "spreadFrom": 0.8,
+      "spreadAvg": 1,
+      "accountType": "Standard"
+    }
+  ],
+  "regulations": [
+    {
+      "name": "Australian Securities and Investments Commission",
+      "jurisdiction": "Australia",
+      "licenseNumber": "ASIC-185732"
+    }
+  ]
+}

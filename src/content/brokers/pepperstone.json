@@ -1,0 +1,80 @@
+{
+  "rank": 1,
+  "name": "Pepperstone",
+  "slug": "pepperstone",
+  "websiteUrl": "https://www.pepperstone.com",
+  "logoUrl": "/static/images/brokers/pepperstone-logo.svg",
+  "rating": 5.2,
+  "established": 2010,
+  "headquarters": "Melbourne, Australia",
+  "description": "Pepperstone is a established forex and CFD broker founded in 2010 with headquarters in Melbourne, Australia. With over a decade of experience in the financial markets, the company has built a strong reputation for providing professional trading services to both retail and institutional clients worldwide. \n\nThe broker offers comprehensive trading solutions across multiple asset classes including forex, indices, commodities, stocks, and CFDs. Known for its reliable execution and advanced technolog",
+  "pros": [
+    "Free deposits and fast withdrawals",
+    "No minimum deposit requirements",
+    "Highly regulated by top-tier financial authorities",
+    "Mobile apps with full trading functionality",
+    "Award-winning customer support available 24/7",
+    "Advanced trading platforms with professional tools"
+  ],
+  "cons": [
+    "Withdrawal fees for certain payment methods",
+    "Higher minimum deposit requirements for premium accounts",
+    "Platform maintenance during market hours occasionally",
+    "Platform complexity may overwhelm beginners",
+    "No guaranteed stop losses on all instruments",
+    "Requires verification for withdrawals"
+  ],
+  "platforms": [
+    "MetaTrader 4",
+    "MetaTrader 5",
+    "Mobile App"
+  ],
+  "scores": {
+    "regulationTrust": 9.6,
+    "fees": 7.9,
+    "platformTools": 8.2,
+    "depositWithdrawal": 7.7,
+    "customerSupport": 8.7,
+    "researchEducation": 7.2
+  },
+  "userReviewsCount": 1999,
+  "spreads": [
+    {
+      "currencyPair": "EUR/USD",
+      "spreadFrom": 0.9,
+      "spreadAvg": 1.1,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "EUR/USD",
+      "spreadFrom": 0.3,
+      "spreadAvg": 0.4,
+      "accountType": "ECN"
+    },
+    {
+      "currencyPair": "GBP/USD",
+      "spreadFrom": 0.5,
+      "spreadAvg": 0.7,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "USD/JPY",
+      "spreadFrom": 0.3,
+      "spreadAvg": 0.5,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "USD/JPY",
+      "spreadFrom": 0.1,
+      "spreadAvg": 0.2,
+      "accountType": "ECN"
+    }
+  ],
+  "regulations": [
+    {
+      "name": "Australian Securities and Investments Commission",
+      "jurisdiction": "Australia",
+      "licenseNumber": "ASIC-185732"
+    }
+  ]
+}

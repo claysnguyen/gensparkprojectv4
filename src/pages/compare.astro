@@ -1,0 +1,278 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+
+const brokers = await getCollection('brokers');
+const sortedBrokers = brokers.sort((a, b) => b.data.rating - a.data.rating);
+---
+
+<Layout title="Compare Forex Brokers" description="Compare forex brokers side by side. Spreads, regulations, platforms, and more.">
+  <div class="bg-gray-50 min-h-screen">
+    <div class="bg-primary-600 text-white py-12">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h1 class="text-4xl font-bold mb-4">Compare Brokers Side by Side</h1>
+        <p class="text-primary-100 text-lg">Select up to 3 brokers to compare their features, spreads, and ratings.</p>
+      </div>
+    </div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <div class="grid grid-cols-1 lg:grid-cols-4 gap-8">
+        <!-- Broker Selection -->
+        <div class="lg:col-span-1">
+          <div class="bg-white rounded-xl shadow-sm p-6 sticky top-24">
+            <h2 class="font-semibold text-gray-900 mb-4">Select Brokers</h2>
+            <div class="space-y-2 max-h-96 overflow-y-auto">
+              {sortedBrokers.map((broker) => (
+                <label class="flex items-center gap-3 p-2 rounded-lg hover:bg-gray-50 cursor-pointer">
+                  <input type="checkbox" class="broker-checkbox w-4 h-4 text-primary-600 rounded" value={broker.id} />
+                  <span class="text-sm text-gray-700">{broker.data.name}</span>
+                </label>
+              ))}
+            </div>
+            <button id="clearSelection" class="w-full mt-4 bg-gray-100 text-gray-700 py-2 rounded-lg hover:bg-gray-200 transition text-sm">
+              Clear Selection
+            </button>
+          </div>
+        </div>
+
+        <!-- Comparison Table -->
+        <div class="lg:col-span-3">
+          <div id="comparisonContainer" class="bg-white rounded-xl shadow-sm overflow-hidden">
+            <div id="emptyState" class="p-12 text-center">
+              <svg class="w-16 h-16 mx-auto text-gray-300 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+              </svg>
+              <p class="text-gray-500">Select 2 or more brokers to compare</p>
+            </div>
+
+            <div id="comparisonTable" class="hidden">
+              <div id="brokerHeaders" class="grid grid-cols-4 border-b bg-gray-50">
+                <div class="p-4 font-medium text-gray-500">Feature</div>
+                <!-- Broker headers will be inserted here -->
+              </div>
+
+              <div class="divide-y">
+                <!-- Rating Row -->
+                <div class="grid grid-cols-4">
+                  <div class="p-4 font-medium text-gray-700">Overall Rating</div>
+                  <div id="row-rating" class="p-4"></div>
+                </div>
+
+                <!-- Headquarters Row -->
+                <div class="grid grid-cols-4">
+                  <div class="p-4 font-medium text-gray-700">Headquarters</div>
+                  <div id="row-hq" class="p-4"></div>
+                </div>
+
+                <!-- Established Row -->
+                <div class="grid grid-cols-4">
+                  <div class="p-4 font-medium text-gray-700">Established</div>
+                  <div id="row-established" class="p-4"></div>
+                </div>
+
+                <!-- Regulation Score Row -->
+                <div class="grid grid-cols-4">
+                  <div class="p-4 font-medium text-gray-700">Regulation Score</div>
+                  <div id="row-regulation" class="p-4"></div>
+                </div>
+
+                <!-- Fees Score Row -->
+                <div class="grid grid-cols-4">
+                  <div class="p-4 font-medium text-gray-700">Fees Score</div>
+                  <div id="row-fees" class="p-4"></div>
+                </div>
+
+                <!-- Platforms Row -->
+                <div class="grid grid-cols-4">
+                  <div class="p-4 font-medium text-gray-700">Platforms</div>
+                  <div id="row-platforms" class="p-4"></div>
+                </div>
+
+                <!-- Regulations Row -->
+                <div class="grid grid-cols-4">
+                  <div class="p-4 font-medium text-gray-700">Regulations</div>
+                  <div id="row-regulations" class="p-4"></div>
+                </div>
+
+                <!-- Spreads Row -->
+                <div class="grid grid-cols-4">
+                  <div class="p-4 font-medium text-gray-700">EUR/USD Spread</div>
+                  <div id="row-spreads" class="p-4"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</Layout>
+
+<script>
+  const checkboxes = document.querySelectorAll('.broker-checkbox');
+  const clearButton = document.getElementById('clearSelection');
+  const emptyState = document.getElementById('emptyState');
+  const comparisonTable = document.getElementById('comparisonTable');
+  const brokerHeaders = document.getElementById('brokerHeaders');
+
+  const rows = {
+    rating: document.getElementById('row-rating'),
+    hq: document.getElementById('row-hq'),
+    established: document.getElementById('row-established'),
+    regulation: document.getElementById('row-regulation'),
+    fees: document.getElementById('row-fees'),
+    platforms: document.getElementById('row-platforms'),
+    regulations: document.getElementById('row-regulations'),
+    spreads: document.getElementById('row-spreads'),
+  };
+
+  // Broker data embedded for comparison
+  const brokerData: Record<string, any> = {};
+
+  // Fetch broker data on page load
+  async function loadBrokerData() {
+    const response = await fetch('/content/brokers.json');
+    const data = await response.json();
+    data.brokers.forEach((b: any) => {
+      brokerData[b.slug] = b;
+    });
+  }
+  loadBrokerData();
+
+  function updateComparison() {
+    const selected = Array.from(checkboxes)
+      .filter((cb: any) => cb.checked)
+      .map((cb: any) => cb.value);
+
+    if (selected.length < 2) {
+      emptyState?.classList.remove('hidden');
+      comparisonTable?.classList.add('hidden');
+      return;
+    }
+
+    emptyState?.classList.add('hidden');
+    comparisonTable?.classList.remove('hidden');
+
+    // Update headers
+    if (brokerHeaders) {
+      brokerHeaders.innerHTML = '<div class="p-4 font-medium text-gray-500">Feature</div>';
+      selected.forEach(slug => {
+        const broker = brokerData[slug];
+        if (broker) {
+          brokerHeaders.innerHTML += `
+            <div class="p-4 text-center">
+              <div class="w-10 h-10 bg-gray-100 rounded-lg flex items-center justify-center mx-auto mb-2">
+                <span class="font-bold text-gray-400">${broker.name.charAt(0)}</span>
+              </div>
+              <a href="/brokers/${slug}" class="font-semibold text-gray-900 hover:text-primary-600">${broker.name}</a>
+            </div>
+          `;
+        }
+      });
+    }
+
+    // Update rows
+    selected.forEach(slug => {
+      const broker = brokerData[slug];
+      if (!broker) return;
+
+      // Rating
+      if (rows.rating) {
+        rows.rating.innerHTML += `
+          <div class="text-center">
+            <div class="flex items-center justify-center gap-1">
+              <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+              </svg>
+              <span class="font-bold">${broker.rating.toFixed(1)}</span>
+            </div>
+          </div>
+        `;
+      }
+
+      // HQ
+      if (rows.hq) {
+        rows.hq.innerHTML += `<div class="text-center text-sm">${broker.headquarters}</div>`;
+      }
+
+      // Established
+      if (rows.established) {
+        rows.established.innerHTML += `<div class="text-center text-sm">${broker.established}</div>`;
+      }
+
+      // Regulation Score
+      if (rows.regulation) {
+        rows.regulation.innerHTML += `
+          <div class="text-center">
+            <div class="inline-flex items-center gap-1">
+              <span class="font-semibold">${broker.scores?.regulationTrust || 'N/A'}</span>
+              <span class="text-gray-400">/10</span>
+            </div>
+          </div>
+        `;
+      }
+
+      // Fees Score
+      if (rows.fees) {
+        rows.fees.innerHTML += `
+          <div class="text-center">
+            <div class="inline-flex items-center gap-1">
+              <span class="font-semibold">${broker.scores?.fees || 'N/A'}</span>
+              <span class="text-gray-400">/10</span>
+            </div>
+          </div>
+        `;
+      }
+
+      // Platforms
+      if (rows.platforms) {
+        rows.platforms.innerHTML += `
+          <div class="text-center">
+            <div class="flex flex-wrap justify-center gap-1">
+              ${(broker.platforms || []).slice(0, 2).map(p => `<span class="text-xs bg-gray-100 px-2 py-1 rounded">${p}</span>`).join('')}
+              ${(broker.platforms || []).length > 2 ? `<span class="text-xs text-gray-400">+${(broker.platforms || []).length - 2}</span>` : ''}
+            </div>
+          </div>
+        `;
+      }
+
+      // Regulations
+      if (rows.regulations) {
+        rows.regulations.innerHTML += `
+          <div class="text-center text-sm">
+            ${(broker.regulations || []).map(r => `<div class="text-xs">${r.jurisdiction}</div>`).join('') || 'N/A'}
+          </div>
+        `;
+      }
+
+      // Spreads (EUR/USD)
+      if (rows.spreads) {
+        const eurUsd = (broker.spreads || []).find((s: any) => s.currencyPair === 'EUR/USD');
+        rows.spreads.innerHTML += `
+          <div class="text-center">
+            <span class="font-semibold">${eurUsd ? eurUsd.spreadFrom : 'N/A'}</span>
+            <span class="text-gray-400 text-sm"> pips</span>
+          </div>
+        `;
+      }
+    });
+  }
+
+  checkboxes.forEach(cb => {
+    cb.addEventListener('change', () => {
+      // Reset rows
+      Object.values(rows).forEach(row => {
+        if (row) row.innerHTML = '';
+      });
+      updateComparison();
+    });
+  });
+
+  clearButton?.addEventListener('click', () => {
+    checkboxes.forEach(cb => (cb as HTMLInputElement).checked = false);
+    Object.values(rows).forEach(row => {
+      if (row) row.innerHTML = '';
+    });
+    updateComparison();
+  });
+</script>

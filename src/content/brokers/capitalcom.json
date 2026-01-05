@@ -1,0 +1,88 @@
+{
+  "rank": 68,
+  "name": "Capital.com",
+  "slug": "capitalcom",
+  "websiteUrl": "https://capital.com",
+  "logoUrl": "/static/images/brokers/capitalcom-logo.svg",
+  "rating": 3.4,
+  "established": 2016,
+  "headquarters": "London, UK",
+  "description": "Capital.com is a growing forex and CFD broker founded in 2016 with headquarters in London, UK. The broker has developed a strong reputation for providing professional trading services to both retail and institutional clients worldwide. \n\nThe broker offers comprehensive trading solutions across multiple asset classes including forex, indices, commodities, stocks, and CFDs. Known for its competitive spreads and user-friendly platforms, Capital.com serves thousands of active traders across various",
+  "pros": [
+    "Highly regulated by top-tier financial authorities",
+    "Extensive educational resources and market analysis",
+    "Transparent fee structure",
+    "Exceptionally tight spreads starting from 0.0 pips",
+    "Wide range of tradeable instruments",
+    "Professional-grade charting tools",
+    "Copy trading and social trading features"
+  ],
+  "cons": [
+    "No guaranteed stop losses on all instruments",
+    "Requires verification for withdrawals",
+    "Limited research tools compared to specialized platforms",
+    "Limited weekend trading options"
+  ],
+  "platforms": [
+    "MetaTrader 4",
+    "MetaTrader 5",
+    "cTrader",
+    "Web Platform",
+    "Mobile App",
+    "NinjaTrader"
+  ],
+  "scores": {
+    "regulationTrust": 9.6,
+    "fees": 7.8,
+    "platformTools": 9.3,
+    "depositWithdrawal": 7.4,
+    "customerSupport": 8.1,
+    "researchEducation": 9
+  },
+  "userReviewsCount": 2629,
+  "spreads": [
+    {
+      "currencyPair": "EUR/USD",
+      "spreadFrom": 0.9,
+      "spreadAvg": 1.1,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "EUR/USD",
+      "spreadFrom": 0.4,
+      "spreadAvg": 0.6,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "EUR/USD",
+      "spreadFrom": 0.1,
+      "spreadAvg": 0.2,
+      "accountType": "ECN"
+    },
+    {
+      "currencyPair": "GBP/USD",
+      "spreadFrom": 1.2,
+      "spreadAvg": 1.4,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "GBP/USD",
+      "spreadFrom": 0.3,
+      "spreadAvg": 0.6,
+      "accountType": "ECN"
+    },
+    {
+      "currencyPair": "USD/JPY",
+      "spreadFrom": 0.3,
+      "spreadAvg": 0.5,
+      "accountType": "Standard"
+    }
+  ],
+  "regulations": [
+    {
+      "name": "Australian Securities and Investments Commission",
+      "jurisdiction": "Australia",
+      "licenseNumber": "ASIC-185732"
+    }
+  ]
+}

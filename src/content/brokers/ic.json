@@ -1,0 +1,80 @@
+{
+  "rank": 9,
+  "name": "IC",
+  "slug": "ic",
+  "websiteUrl": "https://www.icmarkets.com",
+  "logoUrl": "/static/images/brokers/ic-logo.svg",
+  "rating": 4.5,
+  "established": 2007,
+  "headquarters": "Sydney, Australia",
+  "description": "IC Markets is a well-established forex and CFD broker founded in 2007 with headquarters in Sydney, Australia. With over a decade of experience in the financial markets, the company has built a strong reputation for providing institutional-grade trading services to both retail and institutional clients worldwide. \n\nThe broker offers comprehensive trading solutions across multiple asset classes including forex, indices, commodities, and CFDs. Known for its competitive spreads and user-friendly pla",
+  "pros": [
+    "Highly regulated by top-tier financial authorities",
+    "API access for algorithmic trading",
+    "Exceptionally tight spreads starting from 0.0 pips",
+    "Risk management tools included",
+    "Mobile apps with full trading functionality",
+    "Segregated client accounts in tier-1 banks",
+    "Professional-grade charting tools",
+    "Demo accounts available for practice"
+  ],
+  "cons": [
+    "Limited promotional offers and bonuses",
+    "Higher minimum deposit requirements for premium accounts",
+    "Spreads can widen during high volatility periods",
+    "Inactivity fees apply after extended periods of no trading"
+  ],
+  "platforms": [
+    "MetaTrader 5",
+    "Web Platform",
+    "Mobile App"
+  ],
+  "scores": {
+    "regulationTrust": 9.8,
+    "fees": 9.1,
+    "platformTools": 8.6,
+    "depositWithdrawal": 7.6,
+    "customerSupport": 8.4,
+    "researchEducation": 8.4
+  },
+  "userReviewsCount": 3696,
+  "spreads": [
+    {
+      "currencyPair": "EUR/USD",
+      "spreadFrom": 0.9,
+      "spreadAvg": 1.1,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "EUR/USD",
+      "spreadFrom": 0.7,
+      "spreadAvg": 0.9,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "EUR/USD",
+      "spreadFrom": 0.2,
+      "spreadAvg": 0.3,
+      "accountType": "ECN"
+    },
+    {
+      "currencyPair": "GBP/USD",
+      "spreadFrom": 1.2,
+      "spreadAvg": 1.4,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "USD/JPY",
+      "spreadFrom": 1,
+      "spreadAvg": 1.2,
+      "accountType": "Standard"
+    }
+  ],
+  "regulations": [
+    {
+      "name": "Australian Securities and Investments Commission",
+      "jurisdiction": "Australia",
+      "licenseNumber": "ASIC-185732"
+    }
+  ]
+}

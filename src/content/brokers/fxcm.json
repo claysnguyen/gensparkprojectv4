@@ -1,0 +1,82 @@
+{
+  "rank": 29,
+  "name": "FXCM",
+  "slug": "fxcm",
+  "websiteUrl": "https://www.fxcm.com",
+  "logoUrl": "/static/images/brokers/fxcm-logo.svg",
+  "rating": 4.2,
+  "established": 1999,
+  "headquarters": "London, UK",
+  "description": "FXCM is a well-established forex and CFD broker founded in 1999 with headquarters in London, UK. With over a decade of experience in the financial markets, the company has built a strong reputation for providing institutional-grade trading services to both retail and institutional clients worldwide. \n\nThe broker offers comprehensive trading solutions across multiple asset classes including forex, indices, commodities, stocks, and CFDs. Known for its reliable execution and user-friendly platforms",
+  "pros": [
+    "High leverage options for experienced traders",
+    "Multi-asset trading capabilities",
+    "Extensive educational resources and market analysis",
+    "Highly regulated by top-tier financial authorities",
+    "Demo accounts available for practice",
+    "Exceptionally tight spreads starting from 0.0 pips",
+    "Wide range of tradeable instruments",
+    "Segregated client accounts in tier-1 banks"
+  ],
+  "cons": [
+    "Customer support phone lines not available 24/7 globally",
+    "Limited availability in some jurisdictions",
+    "No cryptocurrency trading options available",
+    "Overnight funding charges apply to positions",
+    "Platform maintenance during market hours occasionally"
+  ],
+  "platforms": [
+    "MetaTrader 4",
+    "MetaTrader 5",
+    "Mobile App",
+    "NinjaTrader"
+  ],
+  "scores": {
+    "regulationTrust": 9.8,
+    "fees": 8.7,
+    "platformTools": 8.1,
+    "depositWithdrawal": 7.1,
+    "customerSupport": 7.9,
+    "researchEducation": 8.6
+  },
+  "userReviewsCount": 888,
+  "spreads": [
+    {
+      "currencyPair": "EUR/USD",
+      "spreadFrom": 0.9,
+      "spreadAvg": 1.1,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "EUR/USD",
+      "spreadFrom": 0.9,
+      "spreadAvg": 1.1,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "GBP/USD",
+      "spreadFrom": 0.3,
+      "spreadAvg": 0.5,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "GBP/USD",
+      "spreadFrom": 0.1,
+      "spreadAvg": 0.2,
+      "accountType": "ECN"
+    },
+    {
+      "currencyPair": "USD/JPY",
+      "spreadFrom": 1,
+      "spreadAvg": 1.2,
+      "accountType": "Standard"
+    }
+  ],
+  "regulations": [
+    {
+      "name": "Australian Securities and Investments Commission",
+      "jurisdiction": "Australia",
+      "licenseNumber": "ASIC-185732"
+    }
+  ]
+}

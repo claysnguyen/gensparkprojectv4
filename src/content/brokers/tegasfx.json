@@ -1,0 +1,90 @@
+{
+  "rank": 72,
+  "name": "TegasFX",
+  "slug": "tegasfx",
+  "websiteUrl": "https://www.tegasfx.com",
+  "logoUrl": "/static/images/brokers/tegasfx-logo.svg",
+  "rating": 3.4,
+  "established": 2020,
+  "headquarters": "St. Vincent",
+  "description": "TegasFX is a growing forex and CFD broker founded in 2020 with headquarters in St. Vincent. The broker has developed a strong reputation for providing professional trading services to both retail and institutional clients worldwide. \n\nThe broker offers comprehensive trading solutions across multiple asset classes including forex, indices, commodities, stocks, and CFDs. Known for its reliable execution and user-friendly platforms, TegasFX serves thousands of active traders across various countrie",
+  "pros": [
+    "Multi-asset trading capabilities",
+    "Free deposits and fast withdrawals",
+    "Negative balance protection for retail clients",
+    "High leverage options for experienced traders",
+    "Exceptionally tight spreads starting from 0.0 pips"
+  ],
+  "cons": [
+    "Complex fee structure for some account types",
+    "Limited promotional offers and bonuses",
+    "Higher minimum deposit requirements for premium accounts"
+  ],
+  "platforms": [
+    "MetaTrader 4",
+    "MetaTrader 5",
+    "Web Platform",
+    "Mobile App",
+    "Proprietary Platform"
+  ],
+  "scores": {
+    "regulationTrust": 7.1,
+    "fees": 6.6,
+    "platformTools": 7.6,
+    "depositWithdrawal": 7.6,
+    "customerSupport": 7.5,
+    "researchEducation": 8.3
+  },
+  "userReviewsCount": 2065,
+  "spreads": [
+    {
+      "currencyPair": "EUR/USD",
+      "spreadFrom": 0.9,
+      "spreadAvg": 1.1,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "EUR/USD",
+      "spreadFrom": 1.2,
+      "spreadAvg": 1.4,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "EUR/USD",
+      "spreadFrom": 0.4,
+      "spreadAvg": 0.6,
+      "accountType": "ECN"
+    },
+    {
+      "currencyPair": "GBP/USD",
+      "spreadFrom": 1,
+      "spreadAvg": 1.2,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "GBP/USD",
+      "spreadFrom": 0.3,
+      "spreadAvg": 0.5,
+      "accountType": "ECN"
+    },
+    {
+      "currencyPair": "USD/JPY",
+      "spreadFrom": 0.8,
+      "spreadAvg": 1,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "USD/JPY",
+      "spreadFrom": 0.2,
+      "spreadAvg": 0.4,
+      "accountType": "ECN"
+    }
+  ],
+  "regulations": [
+    {
+      "name": "Australian Securities and Investments Commission",
+      "jurisdiction": "Australia",
+      "licenseNumber": "ASIC-185732"
+    }
+  ]
+}

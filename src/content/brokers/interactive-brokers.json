@@ -1,0 +1,94 @@
+{
+  "rank": 4,
+  "name": "Interactive Brokers",
+  "slug": "interactive-brokers",
+  "websiteUrl": "https://www.interactivebrokers.com",
+  "logoUrl": "/static/images/brokers/interactive-brokers-logo.svg",
+  "rating": 4.9,
+  "established": 1978,
+  "headquarters": "Greenwich, USA",
+  "description": "Interactive Brokers is a well-established forex and CFD broker founded in 1978 with headquarters in Greenwich, USA. With over a decade of experience in the financial markets, the company has built a strong reputation for providing institutional-grade trading services to both retail and institutional clients worldwide. \n\nThe broker offers comprehensive trading solutions across multiple asset classes including forex, indices, commodities, and CFDs. Known for its competitive spreads and advanced te",
+  "pros": [
+    "Highly regulated by top-tier financial authorities",
+    "Multiple account types for different trading styles",
+    "Extensive educational resources and market analysis",
+    "Multi-asset trading capabilities",
+    "Segregated client accounts in tier-1 banks",
+    "No minimum deposit requirements",
+    "Strong reputation and track record",
+    "Professional-grade charting tools"
+  ],
+  "cons": [
+    "Limited educational content for advanced traders",
+    "Inactivity fees apply after extended periods of no trading",
+    "Platform maintenance during market hours occasionally",
+    "Withdrawal fees for certain payment methods",
+    "Platform complexity may overwhelm beginners"
+  ],
+  "platforms": [
+    "MetaTrader 4",
+    "Web Platform",
+    "Mobile App",
+    "ProRealTime"
+  ],
+  "scores": {
+    "regulationTrust": 9,
+    "fees": 9.4,
+    "platformTools": 8.2,
+    "depositWithdrawal": 8.1,
+    "customerSupport": 8.2,
+    "researchEducation": 8.7
+  },
+  "userReviewsCount": 1859,
+  "spreads": [
+    {
+      "currencyPair": "EUR/USD",
+      "spreadFrom": 0.9,
+      "spreadAvg": 1.1,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "EUR/USD",
+      "spreadFrom": 1.4,
+      "spreadAvg": 1.6,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "EUR/USD",
+      "spreadFrom": 0.4,
+      "spreadAvg": 0.7,
+      "accountType": "ECN"
+    },
+    {
+      "currencyPair": "GBP/USD",
+      "spreadFrom": 1,
+      "spreadAvg": 1.2,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "GBP/USD",
+      "spreadFrom": 0.3,
+      "spreadAvg": 0.5,
+      "accountType": "ECN"
+    },
+    {
+      "currencyPair": "USD/JPY",
+      "spreadFrom": 0.5,
+      "spreadAvg": 0.7,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "USD/JPY",
+      "spreadFrom": 0.2,
+      "spreadAvg": 0.3,
+      "accountType": "ECN"
+    }
+  ],
+  "regulations": [
+    {
+      "name": "Australian Securities and Investments Commission",
+      "jurisdiction": "Australia",
+      "licenseNumber": "ASIC-185732"
+    }
+  ]
+}

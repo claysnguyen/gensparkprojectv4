@@ -1,0 +1,80 @@
+{
+  "rank": 14,
+  "name": "Ally Invest",
+  "slug": "ally-invest",
+  "websiteUrl": "https://www.ally.com/invest/",
+  "logoUrl": "/static/images/brokers/ally-invest-logo.svg",
+  "rating": 4.4,
+  "established": 2005,
+  "headquarters": "Detroit, USA",
+  "description": "Ally Invest is a well-established forex and CFD broker founded in 2005 with headquarters in Detroit, USA. With over a decade of experience in the financial markets, the company has built a strong reputation for providing institutional-grade trading services to both retail and institutional clients worldwide. \n\nThe broker offers comprehensive trading solutions across multiple asset classes including forex, indices, commodities, and CFDs. Known for its reliable execution and advanced technology, A",
+  "pros": [
+    "Highly regulated by top-tier financial authorities",
+    "Segregated client accounts in tier-1 banks",
+    "Mobile apps with full trading functionality",
+    "Excellent research and market commentary",
+    "Free deposits and fast withdrawals",
+    "Strong reputation and track record"
+  ],
+  "cons": [
+    "Limited promotional offers and bonuses",
+    "Complex fee structure for some account types",
+    "Limited educational content for advanced traders",
+    "Limited research tools compared to specialized platforms",
+    "Inactivity fees apply after extended periods of no trading",
+    "No cryptocurrency trading options available"
+  ],
+  "platforms": [
+    "MetaTrader 4",
+    "Web Platform",
+    "Mobile App"
+  ],
+  "scores": {
+    "regulationTrust": 9.6,
+    "fees": 8.4,
+    "platformTools": 8.4,
+    "depositWithdrawal": 8.1,
+    "customerSupport": 7.4,
+    "researchEducation": 8.8
+  },
+  "userReviewsCount": 4200,
+  "spreads": [
+    {
+      "currencyPair": "EUR/USD",
+      "spreadFrom": 0.9,
+      "spreadAvg": 1.1,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "EUR/USD",
+      "spreadFrom": 0.6,
+      "spreadAvg": 0.8,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "GBP/USD",
+      "spreadFrom": 1.2,
+      "spreadAvg": 1.4,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "USD/JPY",
+      "spreadFrom": 0.3,
+      "spreadAvg": 0.5,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "USD/JPY",
+      "spreadFrom": 0.1,
+      "spreadAvg": 0.2,
+      "accountType": "ECN"
+    }
+  ],
+  "regulations": [
+    {
+      "name": "Australian Securities and Investments Commission",
+      "jurisdiction": "Australia",
+      "licenseNumber": "ASIC-185732"
+    }
+  ]
+}

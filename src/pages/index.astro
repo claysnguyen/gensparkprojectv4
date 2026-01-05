@@ -1,0 +1,122 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+
+const brokers = await getCollection('brokers');
+const topBrokers = brokers.sort((a, b) => b.data.rating - a.data.rating).slice(0, 6);
+---
+
+<Layout title="Home">
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-br from-primary-600 to-primary-800 text-white py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h1 class="text-4xl md:text-5xl font-bold mb-6">
+        Find the Best Forex Broker for You
+      </h1>
+      <p class="text-xl text-primary-100 mb-8 max-w-2xl mx-auto">
+        Expert reviews, real spreads, and unbiased comparisons to help you choose the right broker for your trading needs.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="/brokers" class="bg-white text-primary-600 px-8 py-3 rounded-lg font-semibold hover:bg-primary-50 transition">
+          Browse All Brokers
+        </a>
+        <a href="/compare" class="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/10 transition">
+          Compare Brokers
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats Section -->
+  <section class="py-12 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
+        <div>
+          <div class="text-4xl font-bold text-primary-600">{brokers.length}+</div>
+          <div class="text-gray-600 mt-2">Brokers Reviewed</div>
+        </div>
+        <div>
+          <div class="text-4xl font-bold text-primary-600">74</div>
+          <div class="text-gray-600 mt-2">Countries Covered</div>
+        </div>
+        <div>
+          <div class="text-4xl font-bold text-primary-600">50+</div>
+          <div class="text-gray-600 mt-2">Regulators</div>
+        </div>
+        <div>
+          <div class="text-4xl font-bold text-primary-600">100%</div>
+          <div class="text-gray-600 mt-2">Independent</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Top Rated Brokers -->
+  <section class="py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center mb-8">
+        <h2 class="text-3xl font-bold text-gray-900">Top Rated Brokers</h2>
+        <a href="/brokers" class="text-primary-600 hover:text-primary-700 font-medium">View All →</a>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {topBrokers.map((broker) => (
+          <a href={`/brokers/${broker.id}`} class="bg-white rounded-xl shadow-md hover:shadow-lg transition overflow-hidden group">
+            <div class="p-6">
+              <div class="flex items-center justify-between mb-4">
+                <h3 class="text-xl font-semibold text-gray-900 group-hover:text-primary-600">{broker.data.name}</h3>
+                <div class="flex items-center bg-primary-100 text-primary-700 px-3 py-1 rounded-full">
+                  <svg class="w-4 h-4 text-yellow-500 mr-1" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                  </svg>
+                  <span class="font-semibold">{broker.data.rating.toFixed(1)}</span>
+                </div>
+              </div>
+              <p class="text-gray-600 text-sm mb-4 line-clamp-2">{broker.data.headquarters}</p>
+              <div class="flex flex-wrap gap-2">
+                {broker.data.platforms?.slice(0, 3).map((platform) => (
+                  <span class="text-xs bg-gray-100 text-gray-600 px-2 py-1 rounded">{platform}</span>
+                ))}
+              </div>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="py-16 bg-gray-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl font-bold text-gray-900 text-center mb-12">Why Choose Us?</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-xl shadow-sm">
+          <div class="w-12 h-12 bg-primary-100 rounded-lg flex items-center justify-center mb-4">
+            <svg class="w-6 h-6 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold mb-2">Unbiased Reviews</h3>
+          <p class="text-gray-600">Our reviews are completely independent and based on thorough research and real trader feedback.</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow-sm">
+          <div class="w-12 h-12 bg-primary-100 rounded-lg flex items-center justify-center mb-4">
+            <svg class="w-6 h-6 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold mb-2">Real Spreads</h3>
+          <p class="text-gray-600">We provide actual spread data from brokers so you can make informed decisions.</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow-sm">
+          <div class="w-12 h-12 bg-primary-100 rounded-lg flex items-center justify-center mb-4">
+            <svg class="w-6 h-6 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold mb-2">Trust & Security</h3>
+          <p class="text-gray-600">We only recommend regulated brokers with proven track records and proper licenses.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>

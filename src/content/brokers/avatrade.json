@@ -1,0 +1,88 @@
+{
+  "rank": 19,
+  "name": "AvaTrade",
+  "slug": "avatrade",
+  "websiteUrl": "https://www.avatrade.com",
+  "logoUrl": "/static/images/brokers/avatrade-logo.svg",
+  "rating": 4.3,
+  "established": 2006,
+  "headquarters": "Dublin, Ireland",
+  "description": "AvaTrade is a well-established forex and CFD broker founded in 2006 with headquarters in Dublin, Ireland. With over a decade of experience in the financial markets, the company has built a strong reputation for providing institutional-grade trading services to both retail and institutional clients worldwide. \n\nThe broker offers comprehensive trading solutions across multiple asset classes including forex, indices, commodities, and CFDs. Known for its reliable execution and user-friendly platform",
+  "pros": [
+    "Lightning-fast execution with average speeds under 100ms",
+    "Mobile apps with full trading functionality",
+    "Advanced trading platforms with professional tools",
+    "Wide range of tradeable instruments",
+    "Demo accounts available for practice"
+  ],
+  "cons": [
+    "Withdrawal fees for certain payment methods",
+    "Limited research tools compared to specialized platforms",
+    "Customer support phone lines not available 24/7 globally",
+    "No guaranteed stop losses on all instruments",
+    "Spreads can widen during high volatility periods",
+    "Platform complexity may overwhelm beginners"
+  ],
+  "platforms": [
+    "MetaTrader 4",
+    "MetaTrader 5",
+    "cTrader",
+    "Web Platform",
+    "Mobile App",
+    "Proprietary Platform"
+  ],
+  "scores": {
+    "regulationTrust": 7.8,
+    "fees": 9.1,
+    "platformTools": 7.5,
+    "depositWithdrawal": 7.2,
+    "customerSupport": 8.3,
+    "researchEducation": 8.6
+  },
+  "userReviewsCount": 676,
+  "spreads": [
+    {
+      "currencyPair": "EUR/USD",
+      "spreadFrom": 0.9,
+      "spreadAvg": 1.1,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "EUR/USD",
+      "spreadFrom": 1.3,
+      "spreadAvg": 1.5,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "GBP/USD",
+      "spreadFrom": 1.3,
+      "spreadAvg": 1.5,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "GBP/USD",
+      "spreadFrom": 0.4,
+      "spreadAvg": 0.7,
+      "accountType": "ECN"
+    },
+    {
+      "currencyPair": "USD/JPY",
+      "spreadFrom": 0.9,
+      "spreadAvg": 1.1,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "USD/JPY",
+      "spreadFrom": 0.3,
+      "spreadAvg": 0.5,
+      "accountType": "ECN"
+    }
+  ],
+  "regulations": [
+    {
+      "name": "Australian Securities and Investments Commission",
+      "jurisdiction": "Australia",
+      "licenseNumber": "ASIC-185732"
+    }
+  ]
+}

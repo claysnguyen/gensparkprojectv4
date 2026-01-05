@@ -1,0 +1,77 @@
+{
+  "rank": 74,
+  "name": "Markets.com",
+  "slug": "marketscom",
+  "websiteUrl": "https://www.markets.com",
+  "logoUrl": "/static/images/brokers/marketscom-logo.svg",
+  "rating": 3.2,
+  "established": 2008,
+  "headquarters": "Limassol, Cyprus",
+  "description": "Markets.com is a well-established forex and CFD broker founded in 2008 with headquarters in Limassol, Cyprus. With over a decade of experience in the financial markets, the company has built a strong reputation for providing institutional-grade trading services to both retail and institutional clients worldwide. \n\nThe broker offers comprehensive trading solutions across multiple asset classes including forex, indices, commodities, and CFDs. Known for its competitive spreads and advanced technolo",
+  "pros": [
+    "Strong reputation and track record",
+    "Extensive educational resources and market analysis",
+    "Economic calendar and market news",
+    "Risk management tools included",
+    "Award-winning customer support available 24/7"
+  ],
+  "cons": [
+    "Overnight funding charges apply to positions",
+    "Higher commissions on ECN accounts",
+    "Platform complexity may overwhelm beginners",
+    "Requires verification for withdrawals"
+  ],
+  "platforms": [
+    "MetaTrader 4",
+    "Web Platform",
+    "Mobile App"
+  ],
+  "scores": {
+    "regulationTrust": 8.3,
+    "fees": 8,
+    "platformTools": 8.6,
+    "depositWithdrawal": 8.2,
+    "customerSupport": 7.3,
+    "researchEducation": 8.4
+  },
+  "userReviewsCount": 2948,
+  "spreads": [
+    {
+      "currencyPair": "EUR/USD",
+      "spreadFrom": 0.9,
+      "spreadAvg": 1.1,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "EUR/USD",
+      "spreadFrom": 0.9,
+      "spreadAvg": 1.1,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "GBP/USD",
+      "spreadFrom": 0.6,
+      "spreadAvg": 0.8,
+      "accountType": "Standard"
+    },
+    {
+      "currencyPair": "GBP/USD",
+      "spreadFrom": 0.2,
+      "spreadAvg": 0.3,
+      "accountType": "ECN"
+    },
+    {
+      "currencyPair": "USD/JPY",
+      "spreadFrom": 1.1,
+      "spreadAvg": 1.3,
+      "accountType": "Standard"
+    }
+  ],
+  "regulations": [
+    {
+      "name": "Australian Securities and Investments Commission",
+      "jurisdiction": "Australia",
+      "licenseNumber": "ASIC-185732"
+    }
+  ]
+}
