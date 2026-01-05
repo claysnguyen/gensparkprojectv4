@@ -43,9 +43,13 @@ const trustLevel = broker.data.scores?.regulationTrust >= 9 ? 'Excellent' :
           <div class="bg-white rounded-xl shadow-sm p-6">
             <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-6">
               <div class="flex items-center gap-4">
-                <div class="w-20 h-20 bg-gray-100 rounded-lg flex items-center justify-center">
-                  <span class="text-2xl font-bold text-gray-400">{broker.data.name.charAt(0)}</span>
-                </div>
+                <div class="w-20 h-20 bg-gray-100 rounded-lg flex items-center justify-center overflow-hidden">
+                    {broker.data.logoUrl ? (
+                      <img src={broker.data.logoUrl} alt={broker.data.name} class="w-full h-full object-contain p-2" />
+                    ) : (
+                      <span class="text-2xl font-bold text-gray-400">{broker.data.name.charAt(0)}</span>
+                    )}
+                  </div>
                 <div>
                   <div class="flex items-center gap-2">
                     <span class="text-xs bg-primary-100 text-primary-700 px-2 py-1 rounded">#{broker.data.rank}</span>

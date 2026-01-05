@@ -131,7 +131,7 @@ const sortedBrokers = brokers.sort((a, b) => b.data.rating - a.data.rating);
 
   // Fetch broker data on page load
   async function loadBrokerData() {
-    const response = await fetch('/content/brokers.json');
+    const response = await fetch('/brokers.json');
     const data = await response.json();
     data.brokers.forEach((b: any) => {
       brokerData[b.slug] = b;

@@ -3,7 +3,7 @@
   "name": "OANDA",
   "slug": "oanda",
   "websiteUrl": "https://www.oanda.com",
-  "logoUrl": "/static/images/brokers/oanda-logo.svg",
+  "logoUrl": "/logos/oanda.png",
   "rating": 4.5,
   "established": 1996,
   "headquarters": "Toronto, Canada",
