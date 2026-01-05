@@ -8,7 +8,7 @@ const brokers = defineCollection({
     slug: z.string(),
     websiteUrl: z.string().url().optional().or(z.string()),
     logoUrl: z.string().optional(),
-    rating: z.number().min(0).max(5),
+    rating: z.number().min(0).max(5.5),
     established: z.number().min(1900).max(2025),
     headquarters: z.string(),
     description: z.string().optional(),

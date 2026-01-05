@@ -1,0 +1,175 @@
+{
+  "$ref": "#/definitions/brokers",
+  "definitions": {
+    "brokers": {
+      "type": "object",
+      "properties": {
+        "rank": {
+          "type": "number"
+        },
+        "name": {
+          "type": "string"
+        },
+        "slug": {
+          "type": "string"
+        },
+        "websiteUrl": {
+          "anyOf": [
+            {
+              "anyOf": [
+                {
+                  "not": {}
+                },
+                {
+                  "type": "string",
+                  "format": "uri"
+                }
+              ]
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "logoUrl": {
+          "type": "string"
+        },
+        "rating": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 5.5
+        },
+        "established": {
+          "type": "number",
+          "minimum": 1900,
+          "maximum": 2025
+        },
+        "headquarters": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "pros": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "cons": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "platforms": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "scores": {
+          "type": "object",
+          "properties": {
+            "regulationTrust": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 10
+            },
+            "fees": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 10
+            },
+            "platformTools": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 10
+            },
+            "depositWithdrawal": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 10
+            },
+            "customerSupport": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 10
+            },
+            "researchEducation": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 10
+            }
+          },
+          "additionalProperties": false
+        },
+        "userReviewsCount": {
+          "type": "number"
+        },
+        "spreads": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "currencyPair": {
+                "type": "string"
+              },
+              "spreadFrom": {
+                "type": "number"
+              },
+              "spreadAvg": {
+                "type": "number"
+              },
+              "accountType": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "currencyPair",
+              "spreadFrom",
+              "spreadAvg",
+              "accountType"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "regulations": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "jurisdiction": {
+                "type": "string"
+              },
+              "licenseNumber": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "name",
+              "jurisdiction"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "$schema": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "rank",
+        "name",
+        "slug",
+        "rating",
+        "established",
+        "headquarters"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}
